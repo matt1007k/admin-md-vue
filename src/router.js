@@ -6,6 +6,7 @@ Vue.use(Router);
 export default new Router({
   mode: "history",
   base: process.env.BASE_URL,
+  // linkExactActiveClass: "active",
   routes: [
     {
       path: "/",
@@ -30,6 +31,7 @@ export default new Router({
         {
           path: "personas",
           name: "personas",
+          meta: { titulo: "Personas" },
           component: () => import("./views/admin/Personas.vue")
         }
       ]

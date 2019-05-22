@@ -1,12 +1,16 @@
 const mdi_icons = {
   apps: "mdi-dropbox",
-  support: "mdi-lifebuoy",
-  steam: "mdi-steam-box",
-  pc: "mdi-desktop-classic",
-  xbox: "mdi-xbox",
-  playstation: "mdi-playstation",
-  switch: "mdi-nintendo-switch",
-  search: "mdi-magnify"
+  home: "mdi-home",
+  dashboard: "mdi-view-dashboard",
+  add: "mdi-plus",
+  edit: "mdi-pencil",
+  delete: "mdi-delete",
+  users: "mdi-account-multiple",
+  people: "mdi-account-group",
+  search: "mdi-magnify",
+  filter: "mdi-filter-variant",
+  bell: "mdi-bell-ring",
+  exit: "mdi-exit-to-app"
 };
 
 export default mdi_icons;
